@@ -12,5 +12,5 @@ spring:
       min-idle: 15    
   jpa:
     hibernate:
-      ddl-auto: none
+      ddl-auto: update
     database-platform: org.hibernate.dialect.MySQL5InnoDBDialect   
